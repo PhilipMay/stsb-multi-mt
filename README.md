@@ -8,7 +8,7 @@ This is a multilingual translation of the [STSbenchmark dataset](https://ixa2.si
 - folder `data`: the data: sentence1, sentence2, similarity_score
 - `convert.py`: script to convert data from `raw-data` to `data`
 
-## Example how to load the Data
+## Example: load the Data
 ```python
 with open(filepath, newline="", encoding="utf-8") as csvfile:
     csv_dict_reader = csv.DictReader(
