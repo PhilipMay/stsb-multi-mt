@@ -10,6 +10,8 @@ This is a multilingual translation of the [STSbenchmark dataset](https://ixa2.si
 
 ## Example: load the Data
 ```python
+import csv
+
 with open(filepath, newline="", encoding="utf-8") as csvfile:
     csv_dict_reader = csv.DictReader(
         csvfile,
