@@ -4,23 +4,22 @@ import math
 
 def read_files(f1, f2, score_file):
     # load both sentence files
-    with open(f1) as f:
+    with open(f1, encoding="utf-8") as f:
         content = f.readlines()
-    with open(f2) as f:
+    with open(f2, encoding="utf-8") as f:
         content.extend(f.readlines())
     content = [c.strip() for c in content]
     assert len(content) == (5749 + 1500 + 1379) * 2
 
     # load scores
-    with open(score_file) as f:
+    with open(score_file, encoding="utf-8") as f:
         scores_str = f.readlines()
     scores = []
     for s in scores_str:
         f = float(s)
-        assert type(f) == float
+        assert isinstance(f, float)
         assert f >= 0.0
         assert f <= 5.0
-        assert not math.isnan(f)
         scores.append(f)
 
     # create rows: s1 + s2 + score
@@ -44,7 +43,7 @@ def read_files(f1, f2, score_file):
 def write_data(data, target_file):
     assert len(data) > 0
     print("Writing:", target_file)
-    with open(target_file, 'w', newline='') as csvfile:
+    with open(target_file, 'w', newline='', encoding="utf-8") as csvfile:
         csv_writer = csv.writer(
             csvfile,
             dialect='excel',  # excel is the default
