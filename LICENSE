@@ -1,7 +1,8 @@
 Copyright (c) 2021, Philip May
 
-This work is distributed under the same license as the original 
-dataset (see below).
+This work is distributed under the same license as the original
+dataset (see below and here):
+https://ixa2.si.ehu.eus/stswiki/index.php/STSbenchmark
 
 Notes on datasets and licenses
 ------------------------------
@@ -29,11 +30,11 @@ The text of each dataset has a license of its own, as follows:
   http://emm.newsbrief.eu/rss?type=rtn&language=en&duplicates=false
 
 - deft-news: A subset of news article data in the DEFT
-  project.  
+  project.
 
 - MSR-Video, Microsoft Research Video Description Corpus.  In order to
   use MSRvideo, researchers need to agree with the license terms from
-  Microsoft Research: 
+  Microsoft Research:
   http://research.microsoft.com/en-us/downloads/38cf15fd-b8df-477e-a4e4-a4680caa75af/
 
 - image: The Image Descriptions data set is a subset of
@@ -66,23 +67,23 @@ http://creativecommons.org/licenses/by-sa/3.0/
 Attribution Requirements:
 
    "* Visually display or otherwise indicate the source of the content
-      as coming from the Stack Exchange Network. This requirement is 
+      as coming from the Stack Exchange Network. This requirement is
       satisfied with a discreet text blurb, or some other unobtrusive but
       clear visual indication.
 
-    * Ensure that any Internet use of the content includes a hyperlink 
+    * Ensure that any Internet use of the content includes a hyperlink
       directly to the original question on the source site on the Network
       (e.g., http://stackoverflow.com/questions/12345)
 
-    * Visually display or otherwise clearly indicate the author names for 
+    * Visually display or otherwise clearly indicate the author names for
       every question and answer used
 
-    * Ensure that any Internet use of the content includes a hyperlink for 
+    * Ensure that any Internet use of the content includes a hyperlink for
       each author name directly back to his or her user profile page on the
-      source site on the Network (e.g., 
+      source site on the Network (e.g.,
       http://stackoverflow.com/users/12345/username), directly to the Stack
       Exchange domain, in standard HTML (i.e. not through a Tinyurl or other
-      such indirect hyperlink, form of obfuscation or redirection), without 
+      such indirect hyperlink, form of obfuscation or redirection), without
       any “nofollow” command or any other such means of avoiding detection by
       search engines, and visible even with JavaScript disabled."
 
