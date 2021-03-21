@@ -1,14 +1,20 @@
-# STSb Multi MT
-Machine translated multilingual STS benchmark dataset.
+# STSb Multi MTMachine translated multilingual STS benchmark dataset.
 
-These are different multilingual translations and the English original of the [STSbenchmark dataset](https://ixa2.si.ehu.es/stswiki/index.php/STSbenchmark). Translation has been done with [deepl.com](https://www.deepl.com/). It can be used to train [sentence embeddings](https://github.com/UKPLab/sentence-transformers) like [T-Systems-onsite/cross-en-de-roberta-sentence-transformer](https://huggingface.co/T-Systems-onsite/cross-en-de-roberta-sentence-transformer).
+These are different multilingual translations and the English original of the [STSbenchmark dataset](https://ixa2.si.ehu.es/stswiki/index.php/STSbenchmark). Translation has been done with [deepl.com](https://www.deepl.com/).
+
+- Available languages are: de, en, es, fr, it, nl, pl, pt, ru, zh
+- Dataset splits are called: train, dev, test
+
+It can be used to train [sentence embeddings](https://github.com/UKPLab/sentence-transformers) like [T-Systems-onsite/cross-en-de-roberta-sentence-transformer](https://huggingface.co/T-Systems-onsite/cross-en-de-roberta-sentence-transformer).
+
+Please [open an issue](https://github.com/PhilipMay/stsb-multi-mt/issues/new) if you have questions or want to report problems.
 
 ## Content
 - folder `raw-data`: the raw data how it was convertet with deepl.com
 - folder `data`: the data: sentence1, sentence2, similarity_score
 - `convert.py`: script to convert data from `raw-data` to `data`
 
-## Example: load the Data
+## Examples of Use
 ```python
 import csv
 
