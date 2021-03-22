@@ -31,3 +31,17 @@ with open(filepath, newline="", encoding="utf-8") as csvfile:
 
 ## Known Issues
 - the chinese dataset has an error with text that is missing - see https://github.com/PhilipMay/stsb-multi-mt/issues/1
+
+## Manual Testing of Datasets
+| Language | 1st train | 1000st train | last train | 1st dev | 1000st dev | last dev | 1st test | 1000st test | last test | 
+|----------|-----------|--------------|------------|---------|------------|----------|----------|-------------|-----------|
+| de       |         |            |          |       |          |        |        |           |         |
+| en       |         |            |          |       |          |        |        |           |         |
+| es       |         |            |          |       |          |        |        |           |         |
+| fr       |         |            |          |       |          |        |        |           |         |
+| it       |         |            |          |       |          |        |        |           |         |
+| nl       |         |            |          |       |          |        |        |           |         |
+| pl       |         |            |          |       |          |        |        |           |         |
+| pt       |         |            |          |       |          |        |        |           |         |
+| ru       |         |            |          |       |          |        |        |           |         |
+| zh       |         |            |          |       |          |        |        |           |         |
