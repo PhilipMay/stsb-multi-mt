@@ -1,4 +1,5 @@
-# STSb Multi MTMachine translated multilingual STS benchmark dataset.
+# STSb Multi MT
+Machine translated multilingual STS benchmark dataset.
 
 These are different multilingual translations and the English original of the [STSbenchmark dataset](https://ixa2.si.ehu.es/stswiki/index.php/STSbenchmark). Translation has been done with [deepl.com](https://www.deepl.com/).
 
