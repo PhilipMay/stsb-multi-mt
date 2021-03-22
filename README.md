@@ -36,7 +36,7 @@ with open(filepath, newline="", encoding="utf-8") as csvfile:
 Language | 1st train | 1000st train | last train | 1st dev | 1000st dev | last dev | 1st test | 1000st test | last test
 ---------|-----------|--------------|------------|---------|------------|----------|----------|-------------|----------
 de       | ok        | ok           | ok         | ok      | ok         | ok       | ok       | ok          | ok
-en       | --        | --           | --         | --      | --         | --       | --       | --          | --
+en       | ok        | ok           | ok         | ok      | ok         | ok       | ok       | ok          | ok
 es       |         |            |          |       |          |        |        |           |
 fr       |         |            |          |       |          |        |        |           |
 it       |         |            |          |       |          |        |        |           |
