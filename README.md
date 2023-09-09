@@ -3,7 +3,7 @@ Machine translated multilingual STS benchmark dataset.
 
 These are different multilingual translations and the English original of the [STSbenchmark dataset](https://ixa2.si.ehu.es/stswiki/index.php/STSbenchmark). Translation has been done with [deepl.com](https://www.deepl.com/).
 
-- Available languages are: de, en, es, fr, it, nl, pl, pt, ru, zh
+- Available languages are: de, en, es, fr, it, ja, nl, pl, pt, ru, zh
 - Dataset splits are called: train, dev, test
 
 It can be used to train [sentence embeddings](https://github.com/UKPLab/sentence-transformers) like [T-Systems-onsite/cross-en-de-roberta-sentence-transformer](https://huggingface.co/T-Systems-onsite/cross-en-de-roberta-sentence-transformer).
@@ -41,7 +41,7 @@ with open(filepath, newline="", encoding="utf-8") as csvfile:
 ```
 
 ## Known Issues
-- the Japanese dataset counts as deprecated - it has an error with missing text - see https://github.com/PhilipMay/stsb-multi-mt/issues/1
+- ...
 
 ## Manual Testing of Datasets
 Language | 1st train | 1000st train | last train | 1st dev | 1000st dev | last dev | 1st test | 1000st test | last test
@@ -51,6 +51,7 @@ en       | ok        | ok           | ok         | ok      | ok         | ok    
 es       |         |            |          |       |          |        |        |           |
 fr       |         |            |          |       |          |        |        |           |
 it       |         |            |          |       |          |        |        |           |
+ja       |         |            |          |       |          |        |        |           |
 nl       |         |            |          |       |          |        |        |           |
 pl       |         |            |          |       |          |        |        |           |
 pt       |         |            |          |       |          |        |        |           |
